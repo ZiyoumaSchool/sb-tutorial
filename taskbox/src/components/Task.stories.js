@@ -23,6 +23,7 @@ export const Pinned = Template.bind({});
 Pinned.args = {
   task: {
     ...Default.args.task,
+    title : 'Story',
     state: 'TASK_PINNED',
   },
 };
